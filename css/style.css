@@ -20,6 +20,15 @@ body {
   flex-wrap: wrap;
   transition: 0.3s;
   outline: none;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.3s;
+  outline: none;
 }
 
 * {
@@ -219,12 +228,12 @@ a:visited {
   background: linear-gradient(to right, #01b3af 50%, #fff 50%);
   background-size: 200% 100%;
   background-position: right;
-  transition: all .25s ease-out;
+  transition: all 0.25s ease-out;
 }
 
 .home .container a.button:hover {
   color: #fff;
-  background-color: #01b3af;
+  background-position: left;
 }
 
 
@@ -918,11 +927,12 @@ a:visited {
   font-weight: 600 ;
 }
 
-#link:hover {
+#link:hover{
   background-color: #009794;
-  .contactC input[type="text"]:hover,
-  .contactC input[type="email"]:hover,
-  .contactC textarea:hover {
+=======
+.contactC input[type="text"]:hover,
+.contactC input[type="email"]:hover,
+.contactC textarea:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 

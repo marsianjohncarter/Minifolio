@@ -1,5 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.registerPlugin(ScrollTrigger);
+
 // Get a reference to the button element
 const backToTopButton = document.getElementById("back-to-top");
 
